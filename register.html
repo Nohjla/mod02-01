@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Forms</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<form>
+		<label>Username: <input type="text" name="username" placeholder="username" required>
+		</label>
+		<label>Password: <input type="password" name="password" placeholder="password">
+		</label>
+		<br>
+		<br>
+		<label>Name: <input type="input" name="firstname" placeholder="First Name"></label>
+		<label>Name: <input type="input" name="lastname" placeholder="Last Name"></label>
+
+
+		<br>
+		<br>
+		<input type="radio" name="genre" value="rock" checked>Rock
+		<input type="radio" name="genre" value="pop">Pop
+		<input type="radio" name="genre" value="jazz">Jazz
+
+		<br>
+
+		<input type="checkbox" name="fruit" value="apple">Apple
+		<input type="checkbox" name="fruit" value="orange">Orange
+		<input type="checkbox" name="fruit" value="melon">Melon
+
+		<hr>
+
+		<input  id="female" type="radio" name="gender" value="f">
+		<label for="female">Female</label>
+		<input  id="male" type="radio" name="gender" value="m">
+		<label for="male">Male</label>
+
+		<br>
+		<br>
+		<input type="email" name="email" placeholder="email" disabled>
+		<input type="number" name="contact" placeholder="contact">
+		<br>
+		<br>
+		<select name="brand name">
+			<option value="uniqlo">Uniqlo</option>
+			<option value="bench">Bench</option>
+			<option value="penshoppe">Penshoppe</option>
+		</select>
+
+		<br>
+		<br>
+		<button><img src="assets/images/logo.png" alt="add"></button>
+		<br>
+		<br>
+		<button>Text naman laman nito</button>
+		<br>
+		<br>
+
+		<input type="file" name="song">
+		<br>
+		<br>
+
+		<textarea name="comments" placeholder="Write Your Comments her..."></textarea>
+		<br>
+
+		<fieldset>
+			<legend>Contact Details</legend>
+			<label for="email">Email: </label>
+			<input type="email" name="email">
+			<label>Mobile: </label>
+			<input type="number" name="number">
+		</fieldset>
+
+		<input type="submit" name="Submit" disabled>
+	</form>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Registration Form</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<div class="details">
+	<form>
+	<fieldset>
+		<legend>Your Details:</legend>
+		<div>
+		<label>Name: <input type="input" name="name" placeholder="Full Name"></label>
+		</div>
+		<div>
+		<label>Email: <input type="email" name="email" placeholder="Email Address"></label>
+		</div>	
+	</fieldset>
+	</div>
+	<div>
+	<fieldset class="review">
+		<legend>Your Review:</legend>
+		<div>
+		<label for="sel">How did you hear about us? 
+		<select id="sel" >
+			<option value="google" >Goolge</option>
+			<option value="facebook">Facebook</option>
+			<option value="instagram">Instagram</option>
+		</select></label>
+		</div>
+		<div>
+		<label>Would you visit again?</label>
+		<input id="yes" type="radio" name="visit" value="y" >
+		<label for="yes">Yes</label>
+		<input id="no" type="radio" name="visit" value="n">
+		<label for="no">No</label>
+		<input id="maybe" type="radio" name="visit" value="m">
+		<label for="maybe">Maybe</label>
+		</div>
+		<div>
+		<label>Comments:</label>
+		</div>
+		<div>
+		<textarea name="comment" rows="5" cols="50" placeholder="Write Your Comment here..."></textarea>
+		</div>
+		<div>
+		<input type="checkbox" name="validatio" value="valid">
+		<label>Sign me up for email updates</label>
+		</div>
+		<div>
+		<input type="submit" name="submit" value="Submit Value">
+		</div>
+	</fieldset>
+	</div>
+	</form>
+</body>
+</html>
